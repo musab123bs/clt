@@ -1,0 +1,165 @@
+
+@media only screen and (min-width: 1300px){
+    .location .inner-location .destination-details{
+        padding: 0 25px 0 0;
+    }
+    .thumb-slider .thumb-container-wrapp .inner-thumb .inner-right-content{
+        padding: 100px 115px 88px;
+    }
+}
+@media only screen and (max-width: 1080px){
+    html body .wrapper header .logo ul li:nth-child(1) a {
+        width: 180px;
+    }
+    html body .wrapper header .logo ul li:nth-child(2) a,html body .wrapper header .logo ul li:nth-child(3) a{
+        display: none;
+    }
+    .footer .copyright-footer .inner-footer{
+        padding: 10px 5px 40px;
+    }
+    .city-building{
+        margin: 0;
+    }
+    .neg-margin{
+        margin-top: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 991){
+    .city-building{
+        padding: 0;
+        margin-top: -42px;
+    }
+}
+
+@media only screen and (max-width: 929px){
+    .banner .banner-tabs .tabs {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    .banner .banner-tabs .tabs .tab-heading{
+        /* border-radius: 8px; */
+        flex: 0 1 80px;
+        margin-bottom: 0px;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 880px){
+    .banner .banner-tabs .tabs .tab-heading h3{
+        font-size: clamp(0.6rem, 1.1vw, 1.1rem);
+    }
+    .banner .banner-tabs .tab-desc .tab-para p{
+        font-weight: 600;
+        font-size: clamp(0.6rem, 1.1vw, 2rem);
+    }
+    .banner .banner-tabs .tabs .tab-heading{
+    /* border-radius: 0; */
+    margin-right: clamp(-0.19rem, 0.8vw, 1rem);
+    flex: 1 1 auto;
+}
+}
+@media only screen and (min-width: 767px){
+    .mob-menu.active{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .thumb-slider .thumb-container-wrapp .inner-thumb .inner-right-content {
+        padding: 100px 30px 88px;
+    }
+    html body .wrapper header .logo ul li:nth-child(1) a {
+        width: 200px;
+    }
+    html body .wrapper header .logo ul li:nth-child(2) a,html body .wrapper header .logo ul li:nth-child(3) a{
+        display: none;
+    }
+    html body .wrapper header .desktop-menu{
+        display: none;
+    }
+    html body .wrapper header .toggle-btn{
+        display: block;
+    }   
+    .single-content .single-para-and-btn{
+        flex-direction: column-reverse;
+    }
+    .banner .banner-tabs .tab-desc .tab-para{
+        flex: 1 1 auto;
+    }
+    .city-building .inner-city-buid-content .city-col {
+        padding: 34px 0px 0 30px;
+    }
+    .banner .banner-tabs .tabs{
+        padding: 20px 0px 0px 0;
+    }
+    .banner .banner-tabs .tabs .tab-heading{
+        border-radius: 0px;
+        margin-bottom: 1px;
+        margin-right: 0;
+        outline: 1px solid #ddd;
+    }
+    .banner .banner-tabs .tab-desc{
+        border-radius: 0;
+    }
+    .banner .banner-tabs .tab-desc{
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 698px){
+    .banner .banner-tabs .tab-desc .tab-para {
+        margin: 2px 2px 2px 0;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .footer .copyright-footer .inner-footer .copyright{
+        font-size: 13px;
+    }
+    .banner .banner-tabs .tab-desc{
+        /* outline: 1px solid; */
+        border-bottom: 1px solid;
+    }
+    .footer .copyright-footer .inner-footer{
+        justify-content: space-around;
+    }
+    .banner .banner-content h2 {
+        font-size: 7vw;
+    }
+    .banner .banner-content p {
+        font-size: 4vw;
+    }
+    .banner .banner-content .banner-btn{
+        font-size: 3vw;
+    }
+    .city-building .inner-city-buid-content .city-col{
+        padding: 34px 0px 0 10px;
+    }
+    .thumb-slider .thumb-container-wrapp .inner-thumb .inner-right-content{
+        padding: 50px 30px 88px;
+    }
+    .thumb-slider .thumb-container-wrapp .inner-thumb .inner-right-content .explore-btn span {
+        bottom: 46px;
+    }
+  
+}
+
+@media only screen and (max-width: 449px){
+    .banner .banner-tabs .tabs {
+        /* padding: 60px 60px 0px 0; */
+    }
+    .banner .banner-tabs .tab-desc .tab-search-btn, .banner .banner-tabs .tab-desc .tab-para{
+        padding: 10px 24px;
+    }
+    .single-content .single-section a {
+        font-size: 12px;
+    }
+    .location .inner-location .location-desc {
+        padding: 27px 22px;
+    }
+    .thumb-slider .thumb-container-wrapp {
+        width: 101%;
+        padding: 0 10px;
+    }
+}
